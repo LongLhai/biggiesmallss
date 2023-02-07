@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing:border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body
+{
+    margin: 0;
+    background-color:black;
+}
+header
+{
+    width: 100;
+    max-width: 1680px;
+    margin: 0 auto;
+}
+nav
+{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   color: white;
+}
+nav ul
+{
+    margin: 0;
+    display: flex;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav ul li a
+{
+    font-size: 20px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav ul li a:hover
+{
+    background: #686868;
+    color: #ffffff;
+    transition: all .7s;
+}
+.Logo
+{
+    font-size: 50px;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 40px;
+}
+.content
+{
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.content .header, .-grid-card
+{
+    width: 120%;
+    position: relative;
+
+}
+.content .header
+{
+    color:white;
+    padding: 5px;
+    
+}
+.content .header h1
+{
+    
+    transform: translate(5%);
+    font-size: 3.5rem;
+    
+}
+.-grid-card
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:80px;
+}
+.-grid-card .box
+{
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    transition: .15s;
+    position: relative;
+}
+.bg1
+{
+    background-image: url(https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.6435-9/83104587_1199405367079200_993235118154107457_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=e3f864&_nc_ohc=f4KNx7D1HtMAX-3qjo2&tn=axhdoYlsZBRPP3az&_nc_ht=scontent.fbkk12-2.fna&oh=00_AfDDhJpZj2tA8pW0Ip6RUc21fEUqrwHg8sHj6-VdJwlBhQ&oe=64048D33);
+
+}
+.bg2
+{
+    background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1184055648046047232/pu/img/sY1w2FqX3O8PfLtk?format=jpg&name=large);
+}
+.bg3
+{
+    background-image: url(https://scontent.fbkk9-2.fna.fbcdn.net/v/t39.30808-6/327321641_868400374386349_1691094856166571604_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BsjQDMhssl0AX_Ch4sS&_nc_ht=scontent.fbkk9-2.fna&oh=00_AfBS_ay_HBxziZffRWzbun2Z9djFQ8q-kohYN-w-Mx1SFw&oe=63E13877);
+}
+.bg4
+{
+    background-image: url(https://i.blogs.es/5589e6/stardust-crusaders/1366_2000.jpeg);
+
+}
+
+.content .box h3
+{
+position: absolute;
+bottom: 7px;
+left: 10px;
+color: #ffffff;
+}
+.content .box.box:hover
+{
+    transform:translateY(-15px);
+}
+
+.content
+{
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex; 
+}
+.content .header, .grid-card
+{
+    width: 120%;
+    position: relative;
+
+}
+.content .header
+{
+    color:white;
+    padding: 20px;
+    
+}
+.content .header h1
+{
+    
+    transform: translate(5%);
+    font-size: 3.5rem;
+    
+}
+.grid-card
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:270px;
+}
+.grid-card .box
+{
+    width: 50%;
+    height: 250px;
+    top: 25%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    transition: .15s;
+    position: relative;
+}
+.bg5
+{
+    background-image: url(https://freight.cargo.site/w/3840/q/75/i/a17dfc0b27e50cb1c75dcd8fcd13a2d11783729f60265d9a00d184bc5a8d9296/VALORANT_1.png);
+}
+.bg6
+{
+    background-image: url(https://artists.apple.com/assets/artist-og-share-c766a5950ae664ea9073ede99da0df1094ae1a24bee32b86ab9e43e7e02bce2e.jpg);
+}
+.bg7
+{
+    background-image: url(https://scontent.fbkk12-3.fna.fbcdn.net/v/t1.6435-9/60432805_419373438795283_7310587074313191424_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FvaIlzU-EzAAX8-m3PD&_nc_ht=scontent.fbkk12-3.fna&oh=00_AfDfsHM4cXwq1cZiFB4LoOah-aijdyBPKjvvR36p3DA68g&oe=6404C716);
+}
+.content .box:hover
+{
+    transform: translateY(-15px);
+}
